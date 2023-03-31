@@ -26,7 +26,7 @@ public class SwaggerConfiguration {
                 .apiInfo(metaInfo());
     }
 
-    public ApiInfo metaInfo() {
+    private ApiInfo metaInfo() {
 
         ApiInfo apiInfo = new ApiInfo(
                 "Wipro - Via CEP API REST",

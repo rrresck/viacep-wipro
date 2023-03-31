@@ -26,20 +26,4 @@ public class SwaggerConfiguration {
                 .apiInfo(metaInfo());
     }
 
-    public ApiInfo metaInfo() {
-
-        ApiInfo apiInfo = new ApiInfo(
-                "Wipro - Via CEP API REST",
-                "API REST para consumo da API pública viacep com cálculo de frete",
-                "1.0",
-                "Terms of Service",
-                new Contact("Rafael Resck", "https://www.linkedin.com/in/rafael-resck-dev/",
-                        "rrresck.js@gmail.com"),
-                "Apache License Version 2.0",
-                "https://www.apache.org/licesen.html", new ArrayList<VendorExtension>()
-        );
-
-        return apiInfo;
-    }
-
 }
